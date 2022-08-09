@@ -69,3 +69,5 @@ Sunday1 = Meditation(
 Sunday2 = Meditation(
     "Sunday Part 2",
     "https://www.youtube.com/watch?v=zjoBumC6RtI")
+
+# Adapted from https://github.com/automagictv

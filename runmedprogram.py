@@ -27,3 +27,5 @@ if __name__ == "__main__":
         with yagmail.SMTP(user=args.username, password=args.app_password) as yag:
             for recipient in args.recipients.split(","):
                 yag.send(to=recipient, subject=subject, contents=contents)
+
+# Adapted from https://github.com/automagictv

@@ -65,3 +65,5 @@ TotalMeditationRoutine = MeditationRoutine(
             meditationvideos.Tuesday2,
     ]
 )
+
+# Adapted from https://github.com/automagictv

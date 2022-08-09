@@ -28,3 +28,5 @@ TotalMeditation = Meditation(
         routine.FullMeditationRoutine,
     ] 
 )
+
+# Adapted from https://github.com/automagictv
