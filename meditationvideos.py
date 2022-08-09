@@ -5,7 +5,7 @@ class Meditation(object):
         self.url = url
 
     def as_html(self):
-        return f"{self.name} (<a href=\"{self.url}\">example<\a>)"
+        return f"{self.name} (<a href=\"{self.url}\">Click Here<\a>)"
     
     def __str__(self):
         return self.as_html()

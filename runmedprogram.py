@@ -8,7 +8,7 @@ parser.add_argument("--username", type=str, help="nyustern.python.summer2022@gma
 parser.add_argument("--app_password", type=str, help="kxrcubvacrxpaofr", required=True)
 parser.add_argument("--recipients", type=str, help="nyustern.python.summer2022@gmail.com", required=True)
 
-CURRENT_MEDITATION = dailymeditation.MEDITATION
+CURRENT_MEDITATION = meditationprogram.MEDITATION
 
 if __name__ == "__main__":
     # Parse the command line arguments

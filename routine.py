@@ -40,7 +40,7 @@ class SuperMeditationRoutine(MeditationRoutine):
     def get_meditations(self):
         if not self.meditations_for_routine:
             for meditation_group in self.meditations_groups:
-                self.mediations_for_routine.append(random.choice(mediation_group))
+                self.meditations_for_routine.append(random.choice(meditation_group))
 
         return self.meditations_for_routine
 
@@ -50,9 +50,9 @@ FullMeditationRoutine = SuperMeditationRoutine(
     meditation_groups=[
         [
             meditationvideos.Monday1,
-            meditationvideos.Monday2,
-        ], [
             meditationvideos.Monday3,
+        ], [
+            meditationvideos.Monday2,
         ]
     ]
 )

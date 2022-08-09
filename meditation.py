@@ -22,10 +22,9 @@ class Meditation(object):
     def __str__(self):
         return self.as_html()
 
-TotalMeditation = Workout(
+TotalMeditation = Meditation(
     name= "Total Meditation",
     routines=[
         routine.FullMeditationRoutine,
-        routine.TotalMeditationRoutine,
     ] 
 )
