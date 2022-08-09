@@ -1,7 +1,7 @@
 import argparse
 import datetime
 import yagmail
-import dailymeditation
+import meditationprogram
 
 parser = argparse.ArgumentParser(description="CLI for the Meditation application.")
 parser.add_argument("--username", type=str, help="nyustern.python.summer2022@gmail.com", required=True)
