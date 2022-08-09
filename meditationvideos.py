@@ -18,6 +18,10 @@ Monday2 = Meditation(
     "Monday Part 2",
     "https://www.youtube.com/watch?v=t2nmbIk9umw")
 
+Monday3 = Meditation(
+    "Monday Part 3",
+    "https://www.youtube.com/watch?v=xcfzR8JhA6k")
+
 Tuesday1 = Meditation(
     "Tuesday Part 1",
     "https://www.youtube.com/watch?v=3Y2kASh6ZVc")

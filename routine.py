@@ -1,6 +1,6 @@
 import random
 import itertools
-import meditation
+import meditationvideos
 
 
 class MeditationRoutine(object):
@@ -49,19 +49,19 @@ FullMeditationRoutine = SuperMeditationRoutine(
     instructions="Get Zen.",
     meditation_groups=[
         [
-            meditation.WorkoutCardio,
-            meditation.WorkoutFullBody,
+            meditationvideos.Monday1,
+            meditationvideos.Monday2,
         ], [
-            meditation.NoEquipmentCardio,
+            meditationvideos.Monday3,
         ]
     ]
 )
 
-ArmsRoutine = ExerciseRoutine(
-    name="Total Arms Routine",
-    instructions="Arms Workout. Try a few of these exercises to get your arms pumped!",
-    exercises=[
-            exercise.WorkoutBiceps,
-            exercise.WorkoutTriceps,
+TotalMeditationRoutine = MeditationRoutine(
+    name="Total Meditation Routine",
+    instructions="Find your Inner Peace!",
+    meditations=[
+            meditationvideos.Tuesday1,
+            meditationvideos.Tuesday2,
     ]
 )
